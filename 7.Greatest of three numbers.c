@@ -13,7 +13,7 @@ printf("Enter value of the third number:");
 scanf("%f",&c);
 
 
-if (a>b) {
+if (a>=b&&a>=c) {
 printf("%f greatest no is",a);
 }
 else if (b>c) {
@@ -23,6 +23,4 @@ else {
    printf("%f greatest no is",c);
 }
 return 0;
-
-
 }
